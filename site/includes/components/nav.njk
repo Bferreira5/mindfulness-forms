@@ -1,18 +1,10 @@
 <nav id="nav" class="nav flex">
-
     <ul class="menu flex px-4 flex-col md:flex-row items-center list-reset text-base">
-
         {% for item in navigation.main %}
-
-            <li class="level-1 mr-4 mb-0">
-
-                <a href="{{ item.url | safe }}" class="link font-bold text-gray-900 hover:text-pink-500 {% if page.url == item.url %}active text-red-600 {% endif %}
+            <li class="mb-0 p-4">
+                <a href="{{ item.url | safe }}" class="link uppercase text-normal text-gray-600 hover:text-gray-900 {% if page.url == item.url %}active text-blue-400 {% endif %}
             "{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
-
             </li>
-
         {% endfor %}
-
     </ul>
-
 </nav>

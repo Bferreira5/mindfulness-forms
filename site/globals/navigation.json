@@ -1,16 +1,16 @@
 {
     "main": [
         {
-            "label": "Profile",
-            "url": "/"
+            "label": "Home",
+            "url": "http://www.mansionnursing.com/"
         },
         {
-            "label": "Record",
-            "url": "/record/"
+            "label": "Blog",
+            "url": "http://www.mansionnursing.com/"
         },
         {
-            "label": "Narratives",
-            "url": "/narratives/"
+            "label": "Login",
+            "url": "http://mansionhealthcare.com/mansionnursing/wp-login.php"
         }
     ]
 }
