@@ -16,5 +16,8 @@
         "facebook": "https://www.facebook.com",
         "twitter": "https://twitter.com/joe_dyer1",
         "linkedin": "https://www.linkedin.com"
+    },
+    "form_links": {
+        "signup": "/signup"
     }
 }
