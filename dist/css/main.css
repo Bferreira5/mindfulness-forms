@@ -1225,6 +1225,13 @@ h6 {
   height: 85%;
 }
 
+.promo-img {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("http://mansionhealthcare.com/mansionnursing/wp-content/uploads/2013/04/banner_logo_2.png");
+  height: 670px;
+}
+
 .sr-only{
   position: absolute;
   width: 1px;

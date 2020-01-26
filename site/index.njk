@@ -6,57 +6,94 @@ body_class: profile
 title: Welcome back.
 ---
 
-<main id="main" class="main container m-auto flex flex-1 flex-col md:flex-row py-10 px-6 lg:px-0 lg:py-20">
-
-    <section id="container-centre" class="flex-1">
-
-        <h1 class="page-title text-5xl">{{ title }}</h1>
-
-        <a class="inline-block p-4 mb-6 bg-blue-400 text-beige rounded-lg hover:bg-gray-700" href="/narratives/">Click Here to get started!</a>
-
-        <div class="content">
-            <p>A skeleton boilerplate built with <a href="https://www.11ty.io">Eleventy</a> and <a href="https://tailwindcss.com">Tailwind CSS</a>.</p>
-
-            <h2 class="text-3xl">Features</h2>
-
-            <ul class="mb-12 list-disc pl-4">
-                <li>Tailwind CSS for beautiful and fast UI styling</li>
-                <li>Gulp to watch and compile your Tailwind, SCSS &amp; JS files</li>
-                <li>
-                    <a href="https://www.purgecss.com/">Purgecss</a> to remove any unused CSS</li>
-                <li>HTML minifier</li>
-                <li>A simple blog, with categories and featured images</li>
+<main id="main" class="main">
+    <div class="promo-img w-full">
+        <div class="w-11/12 mx-auto pt-32">
+            <h1 class="text-6xl font-light text-white w-7/12">Historic Setting, Latest Technology</h1>
+            <p class="text-xl text-white w-6/12">Using the latest information technology to provide the highest standards of care.</p>
+            <ul class="flex mt-20">
+                <li class="flex-1 p-6" style="background-color: #42b3e5;">
+                    <div class="home_box">
+                        <h2 class="text-white mb-4 text-2xl font-normal">About the Mansion</h2>
+                        <div class="text-white">
+                            <p class="text-sm mb-4">We have been providing care to the elderly for over 60 years. Our mission is to restore each resident to maximum function.</p>
+                            <a class="text-sm p-2 border border-white hover:bg-gray-600" title="Read more" href="http://mansionnursing.com/about/">Read more --></a>
+                        </div>
+                    </div>
+                </li>
+                <li class="flex-1 p-6" style="background-color: #0384ce;">
+                    <div class="home_box">
+                        <h2 class="text-white mb-4 text-2xl font-normal">About the Mansion</h2>
+                        <div class="text-white">
+                            <p class="text-sm mb-4">We have been providing care to the elderly for over 60 years. Our mission is to restore each resident to maximum function.</p>
+                            <a class="text-sm p-2 border border-white hover:bg-gray-600" title="Read more" href="http://mansionnursing.com/about/">Read more --></a>
+                        </div>
+                    </div>
+                </li>
+                <li class="flex-1 p-6" style="background-color: #3156a3;">
+                    <div class="home_box">
+                        <h2 class="text-white mb-4 text-2xl font-normal">Visiting Hours</h2>
+                        <div class="text-white">
+                            <div class="text">
+                                <ul class="text-sm">
+                                    <li class="mb-4 pb-2 flex border-b border-gray-500 justify-between">
+                                        <span>Monday - Friday</span>
+                                        <div class="value">11:00 am - 7:00 pm</div>
+                                    </li>
+                                    <li class="mb-4 pb-2 flex border-b border-gray-500 justify-between">
+                                        <span>Weekends</span>
+                                        <div class="value">11:00 am - 7:00 pm</div>
+                                    </li>
+                                    <li class="mb-4 pb-2 flex border-b border-gray-500 justify-between">
+                                        <span>Flexibility is given to out-of-town visitors.</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
             </ul>
-
-            <div class="typeform-widget" data-url="https://benjaminferreira.typeform.com/to/iwZpXN" style="width: 100%; height: 500px;"></div>
-            <script>
-                (function () {
-                    var qs,
-                        js,
-                        q,
-                        s,
-                        d = document,
-                        gi = d.getElementById,
-                        ce = d.createElement,
-                        gt = d.getElementsByTagName,
-                        id = "typef_orm",
-                        b = "https://embed.typeform.com/";
-                    if (!gi.call(d, id)) {
-                        js = ce.call(d, "script");
-                        js.id = id;
-                        js.src = b + "embed.js";
-                        q = gt.call(d, "script")[0];
-                        q
-                            .parentNode
-                            .insertBefore(js, q)
-                    }
-                })()
-            </script>
-            <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=iwZpXN&utm_source=typeform.com-13500801-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a>
-            </div>
-
         </div>
-
-    </section>
-
+    </div>
+    <div class="mx-auto w-4/5 flex flex-wrap py-6">
+        <div class="w-1/2 p-6 flex">
+            <p class="flex-none">
+                <a href="http://mansionnursing.com/rehabilitation/"><img style="display: block; width: 76px; height: 88px; float: left; margin-right: 30px;" src="http://mansionnursing.com/wp-content/themes/medicenter/images/icons_large/blue_light/tick.png" alt="" width="76" height="88"></a>
+            </p>
+            <div class="">
+                <h3 class="text-normal font-medium mb-2">Rehabilitation Services</h3>
+                <p class="text-sm">Comprehensive rehabilitation services are available for residents and patients to maximize function and decrease pain.</p>
+                <a class="text-sm text-blue-600 hover:underline" href="http://mansionnursing.com/rehabilitation/">Read more&nbsp;→</a>
+            </div>
+        </div>
+        <div class="w-1/2 p-6 flex">
+            <p class="flex-none">
+                <a href="http://mansionnursing.com/rehabilitation/"><img style="display: block; width: 76px; height: 88px; float: left; margin-right: 30px;" src="http://mansionnursing.com/wp-content/themes/medicenter/images/icons_large/blue_light/network.png" alt="" width="76" height="88"></a>
+            </p>
+            <div class="">
+                <h3 class="text-normal font-medium mb-2">Technology</h3>
+                <p class="text-sm">We are committed to using the latest technology and tools to consistently improve our delivery of services and care.</p>
+                <a class="text-sm text-blue-600 hover:underline" href="http://mansionnursing.com/rehabilitation/">Read more&nbsp;→</a>
+            </div>
+        </div>
+        <div class="w-1/2 p-6 flex">
+            <p class="flex-none">
+                <a href="http://mansionnursing.com/rehabilitation/"><img style="display: block; width: 76px; height: 88px; float: left; margin-right: 30px;" src="http://mansionnursing.com/wp-content/themes/medicenter/images/icons_large/blue_light/people.png" alt="" width="76" height="88"></a>
+            </p>
+            <div class="">
+                <h3 class="text-normal font-medium mb-2">Activities Program</h3>
+                <p class="text-sm">Our activities program uses a holistic approach designed to enrich the mind, body, and spirit of our residents.</p>
+                <a class="text-sm text-blue-600 hover:underline" href="http://mansionnursing.com/rehabilitation/">Read more&nbsp;→</a>
+            </div>
+        </div>
+        <div class="w-1/2 p-6 flex">
+            <p class="flex-none">
+                <a href="http://mansionnursing.com/rehabilitation/"><img style="display: block; width: 76px; height: 88px; float: left; margin-right: 30px;" src="http://mansionnursing.com/wp-content/themes/medicenter/images/icons_large/blue_light/heart.png" alt="" width="76" height="88"></a>
+            </p>
+            <div class="">
+                <h3 class="text-normal font-medium mb-2">Dietary Program</h3>
+                <p class="text-sm">Our food culture is robust, healthy, tasty, and an extension of our caregiving — our residents enjoy their meals.</p>
+                <a class="text-sm text-blue-600 hover:underline" href="http://mansionnursing.com/rehabilitation/">Read more&nbsp;→</a>
+            </div>
+        </div>
+    </div>
 </main>

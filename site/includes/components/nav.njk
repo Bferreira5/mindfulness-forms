@@ -1,5 +1,8 @@
 <nav id="nav" class="nav flex">
     <ul class="menu flex px-4 flex-col md:flex-row items-center list-reset text-base">
+            <li class="mb-0 p-4">
+                <a class="link leading-loose font-bold text-blue-600 hover:text-white hover:bg-blue-600 border-2 border-blue-600 px-4 py-3" href="">Apply for Medicare</a>
+            </li>
         {% for item in navigation.main %}
             <li class="mb-0 p-4">
                 <a href="{{ item.url | safe }}" class="link uppercase text-normal text-gray-600 hover:text-gray-900 {% if page.url == item.url %}active text-blue-400 {% endif %}

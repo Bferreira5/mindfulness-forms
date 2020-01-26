@@ -13,4 +13,8 @@
     height: 85%;
 }
 
-
+.promo-img {
+    @apply h-screen w-screen;
+    background-image: url("http://mansionhealthcare.com/mansionnursing/wp-content/uploads/2013/04/banner_logo_2.png");
+    height: 670px;
+}
